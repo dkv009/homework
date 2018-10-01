@@ -1,0 +1,43 @@
+ .lines {
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #D3D3D3;
+}
+.line {
+	background-color: #6495ED;
+	width: 48%;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+img {
+	height: 300px;
+	display: block;
+	margin: auto;
+}
+h3 {
+  color: white;
+}
+.lines div:hover {
+	background-color: #191970;
+}
+ 
+@media screen and (min-width: 100px) and (max-width: 1028px) {
+	.lines {
+		display: flex;
+		flex-flow: column;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+    .line {
+		width: 100%;
+		text-align: center;
+}
+    img {
+		height: 300px;
+		float: left;
+}
+}
+	

@@ -1,0 +1,22 @@
+img {
+  display: block;
+  margin: auto;
+  width: 700px;
+}
+body {
+  background-color: #DEB887;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+}
+p {
+  color: white;
+  font-size: 30px;
+}
+@media screen and (min-width: 100px) and (max-width: 1028px) {
+  body {
+    text-align: left;
+  }
+}
